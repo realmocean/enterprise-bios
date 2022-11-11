@@ -1,0 +1,2948 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap);
+
+.critical-path-settings-attention-box-wrapper {
+    margin: 0
+}
+
+.DayPicker.DayPicker--horizontal .CalendarMonthGrid--animating {
+    transition: transform .2s step-start;
+    z-index: 1
+}
+
+.solutions-landing-entity-selector {
+    padding-top: 12px;
+    padding-bottom: 20px
+}
+
+.solutions-landing-entity-selector .settings-radio-buttons-component .settings-radio-buttons-wrapper .radio-button-component {
+    min-width: 100px
+}
+
+.keyboard-navigation-item:first-child {
+    margin-top: 3px
+}
+
+.keyboard-navigation-item:last-child {
+    margin-bottom: 3px
+}
+
+.with-keyboard-navigation-enhancer {
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column
+}
+
+.with-keyboard-navigation-enhancer:focus {
+    outline: 0
+}
+
+.base-overview-section-header {
+    flex: 0 1 auto;
+    display: flex;
+    font-weight: 400;
+    cursor: default;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center
+}
+
+.base-overview-section-header.empty {
+    min-width: 90%;
+    min-height: 30px
+}
+
+.base-overview-section-header.empty .overview-section-name {
+    flex: 1 1 auto;
+    min-height: 30px
+}
+
+.base-overview-section-header.empty .overview-section-name .ds-text-component {
+    min-height: 30px
+}
+
+.base-overview-section-header.renaming-section {
+    flex: 1 1 auto
+}
+
+.base-overview-section-header.renaming-section .overview-section-name {
+    flex: 1 1 auto;
+    max-width: 800px
+}
+
+.base-overview-section-header.renaming-section .overview-section-name .ds-editable-input {
+    background-color: transparent
+}
+
+.base-overview-section-header.renaming-section .overview-section-name .ds-editable-input.ds-editable-input-text-align {
+    text-align: center
+}
+
+.base-overview-section-header .overview-section-name {
+    flex: 0 1 auto
+}
+
+.full-screen-mode .base-overview-section-header {
+    justify-content: flex-start
+}
+
+.full-screen-mode .base-overview-section-header .overview-section-name .ds-editable-input.ds-editable-input-text-align {
+    text-align: left
+}
+
+.base-overview-section-header-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative
+}
+
+.base-overview-section-header-component .auto-fit-text-container {
+    pointer-events: none;
+    opacity: 0;
+    top: 15%;
+    bottom: 15%;
+    left: 16px;
+    right: 16px;
+    font-weight: 500
+}
+
+.base-overview-section-header-component.full-screen-mode {
+    text-align: start;
+    height: 64px;
+    max-height: 64px;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: calc(100% - 480px)
+}
+
+.overview-section-grid-wrapper.OverviewSectionWithError-overview-section .overview-section {
+    background-color: var(--secondary-background-color)
+}
+
+.overview-section-grid-wrapper.OverviewSectionWithError-overview-section .overview-section .overview-section-content-wrapper {
+    padding-top: 0
+}
+
+.overview-section-grid-wrapper.OverviewSectionWithError-overview-section .overview-section .overview-section-content-wrapper .overview-section-content-component .error-overview-section {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .35s ease
+}
+
+.base-widget-unlock-component {
+    position: relative;
+    outline: 0;
+    height: 100%
+}
+
+.base-widget-unlock-component .base-widget-unlock-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    height: 100%
+}
+
+.base-widget-unlock-component .base-widget-unlock-content .base-widget-unlock-header {
+    padding: 32px 40px 16px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: center;
+    white-space: pre-wrap
+}
+
+.base-widget-unlock-component .base-widget-unlock-content .base-widget-unlock-text {
+    padding: 0 24px 32px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: var(--primary-text-color)
+}
+
+.base-widget-unlock-component .base-widget-unlock-content .base-widget-unlock-button {
+    margin-bottom: 32px
+}
+
+.content .monday-loader-wrapper,
+.broadcast-component .monday-loader-wrapper,
+.ReactModal__Content .monday-loader-wrapper,
+.dialog-node .monday-loader-wrapper,
+.slide-panel-content .monday-loader-wrapper,
+.learning-center-component .monday-loader-wrapper,
+.first-level-content .monday-loader-wrapper {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column
+}
+
+.content .monday-loader-wrapper img.monday-loader-img,
+.broadcast-component .monday-loader-wrapper img.monday-loader-img,
+.ReactModal__Content .monday-loader-wrapper img.monday-loader-img,
+.dialog-node .monday-loader-wrapper img.monday-loader-img,
+.slide-panel-content .monday-loader-wrapper img.monday-loader-img,
+.learning-center-component .monday-loader-wrapper img.monday-loader-img,
+.first-level-content .monday-loader-wrapper img.monday-loader-img {
+    width: 90px;
+    height: 90px;
+    content: var(--monday-loader-gif-path)
+}
+
+.content .monday-loader-wrapper .loader-text,
+.broadcast-component .monday-loader-wrapper .loader-text,
+.ReactModal__Content .monday-loader-wrapper .loader-text,
+.dialog-node .monday-loader-wrapper .loader-text,
+.slide-panel-content .monday-loader-wrapper .loader-text,
+.learning-center-component .monday-loader-wrapper .loader-text,
+.first-level-content .monday-loader-wrapper .loader-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: gray
+}
+
+.content .monday-loader-wrapper .monday-loader-css,
+.broadcast-component .monday-loader-wrapper .monday-loader-css,
+.ReactModal__Content .monday-loader-wrapper .monday-loader-css,
+.dialog-node .monday-loader-wrapper .monday-loader-css,
+.slide-panel-content .monday-loader-wrapper .monday-loader-css,
+.learning-center-component .monday-loader-wrapper .monday-loader-css,
+.first-level-content .monday-loader-wrapper .monday-loader-css {
+    animation: monday-loader-spin-animation .8s linear infinite;
+    border: 5px solid #ddd;
+    border-top: 5px solid #00c875;
+    border-radius: 50%;
+    height: 46px;
+    width: 46px;
+    margin-bottom: 8px
+}
+
+@keyframes monday-loader-spin-animation {
+    to {
+        border-top-color: #00c875;
+        transform: rotate(360deg)
+    }
+}
+
+
+.form-content-component .form-input-component {
+    width: 100%
+}
+
+.form-content-component .form-input,
+.form-content-component .form-select-label {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    padding: 12px;
+    outline: none;
+    font-weight: 300;
+    border: solid 1px;
+    border-color: var(--ui-border-color);
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color)
+}
+
+.form-content-component .form-input:focus,
+.form-content-component .form-select-label:focus {
+    border-color: #0073ea
+}
+
+.form-content-component .form-input:disabled,
+.form-content-component .form-select-label:disabled {
+    border: none;
+    background-color: var(--grey-background-color);
+    color: var(--disabled-text-color);
+    font-size: 14px;
+    width: 100%
+}
+
+.form-content-component .form-select-label:not(:focus) {
+    border: none
+}
+
+.form-content-component .form-select-label:hover {
+    border: dashed 1px;
+    border-color: var(--ui-border-color)
+}
+
+.form-content-component .form-select-label:focus {
+    border-color: var(--primary-color)
+}
+
+.form-content-component .form-input.long-text-form-input {
+    height: auto;
+    resize: none;
+    display: block
+}
+
+.form-content-component .long-text-form-component {
+    width: 100%;
+    position: relative
+}
+
+.form-content-component .long-text-form-component.invalid .invalid-long-text-message {
+    color: #f74875;
+    font-size: 12px;
+    margin-top: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -16px
+}
+
+.form-content-component .long-text-form-component .long-text-char-counter {
+    color: #a1a1a1;
+    font-size: 12px;
+    margin-top: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    font-weight: 300
+}
+
+.form-content-component .long-text-form-component .long-text-char-counter.limitation-warning {
+    color: #f74875
+}
+
+.form-content-component .number-form-input::-webkit-inner-spin-button,
+.form-content-component .number-form-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.form-content-component .number-form-input {
+    -moz-appearance: textfield
+}
+
+@media(min-width: 500px) {
+    .form-content-component .number-form-input {
+        width: 50%
+    }
+}
+
+.phone-form-input-component {
+    width: 100%
+}
+
+.phone-form-input-component .phone-form-input-container {
+    display: flex
+}
+
+.phone-form-input-component .phone-form-input-container .form-input {
+    max-width: 160px;
+    flex-shrink: 1;
+    min-width: 0
+}
+
+.phone-form-input-component .phone-form-input-container .form-input::placeholder {
+    color: var(--placeholder-color)
+}
+
+.phone-form-input-component .phone-form-input-container .countries-dropdown {
+    margin-right: 8px;
+    flex-shrink: 0
+}
+
+@media(max-width: 500px) {
+    .phone-form-input-component .phone-form-input-container .countries-dropdown {
+        margin-right: 4px;
+        width: 92px
+    }
+
+    .phone-form-input-component .phone-form-input-container .countries-dropdown .Select-value .country-code-option .prefix {
+        display: none
+    }
+}
+
+.phone-form-input-component.invalid {
+    position: relative
+}
+
+.phone-form-input-component.invalid .form-input:not(:focus),
+.phone-form-input-component.invalid .countries-dropdown:not(.is-focused) .Select-control {
+    border: 1px solid #f74875
+}
+
+.phone-form-input-component.invalid .invalid-phone-message {
+    color: #f74875;
+    font-size: 12px;
+    margin-top: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -16px
+}
+
+.form-content-component .form-select-input {
+    font-size: 14px;
+    font-weight: 300
+}
+
+.form-content-component .form-select-input .is-disabled .Select-control {
+    border: none;
+    background-color: #f7f7f7
+}
+
+.form-content-component .form-select-input .is-disabled .Select-control .Select-placeholder {
+    color: var(--placeholder-color)
+}
+
+.form-content-component .form-select-input .is-focused .Select-control {
+    box-shadow: none;
+    border-color: #0073ea
+}
+
+.form-content-component .form-select-input .Select-menu-outer {
+    border: none;
+    margin-top: 0;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, .1)
+}
+
+.form-content-component .form-select-input .Select-control {
+    cursor: pointer;
+    height: 40px;
+    border-radius: 2px
+}
+
+.form-content-component .form-select-input .Select-control .Select-placeholder {
+    line-height: 38px;
+    color: var(--placeholder-color)
+}
+
+.form-content-component .form-select-input .Select-control .Select-value {
+    line-height: 38px !important
+}
+
+.form-content-component .form-select-input .Select-control .Select-value .Select-value-label {
+    line-height: 38px
+}
+
+.form-content-component .form-select-input .Select-control .Select-input {
+    height: 38px
+}
+
+.form-content-component .form-select-input .Select-control .Select-input input {
+    padding: 11px 0 12px;
+    font-weight: 300
+}
+
+.form-content-component .form-select-input .Select-control .Select-arrow-zone:hover .Select-arrow {
+    border-color: #0073ea
+}
+
+.form-content-component .form-select-input .Select-control .Select-arrow-zone .Select-arrow {
+    border-width: 1px 1px 0 0;
+    width: 9px;
+    height: 9px;
+    border-color: #333;
+    transform: rotate(135deg);
+    top: -2px
+}
+
+.form-content-component .form-select-input .Select-option {
+    min-height: 32px
+}
+
+.form-content-component .form-select-input .Select-option.is-selected {
+    background-color: #fff
+}
+
+.form-content-component .form-select-input .Select-option.is-focused {
+    background-color: #0073ea;
+    color: #fff
+}
+
+.form-content-component .email-form-input {
+    width: 100%
+}
+
+.form-content-component .email-form-input :focus {
+    outline-color: transparent;
+    outline-style: none
+}
+
+.form-input-component.invalid {
+    position: relative
+}
+
+.form-input-component.invalid .form-input:not(:focus),
+.form-input-component.invalid .countries-dropdown:not(.is-focused) .Select-control {
+    border: 1px solid #f74875
+}
+
+.form-input-component.invalid .invalid-email-message {
+    color: #f74875;
+    font-size: 12px;
+    margin-top: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -16px
+}
+
+.form-content-component .status-form-input-component {
+    width: 100%
+}
+
+@media(min-width: 500px) {
+    .form-content-component .status-form-input-component {
+        width: 50%;
+        margin-right: 50%
+    }
+}
+
+.form-content-component .form-single-select-status-wrapper {
+    width: 100%
+}
+
+.form-content-component .form-single-select-status-wrapper .form-single-select-status-option {
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+.form-content-component .form-single-select-status-wrapper .form-single-select-status-option .radio-button-component {
+    width: 100%
+}
+
+.form-content-component .form-single-select-status-wrapper .form-single-select-status-option .radio-button-component label {
+    width: 100%
+}
+
+.form-content-component .form-single-select-status-wrapper .form-single-select-status-option span {
+    align-self: center
+}
+
+.form-content-component .form-single-select-status-wrapper .form-single-select-status-option .delete-label-button {
+    visibility: hidden
+}
+
+.form-content-component .form-single-select-status-wrapper .form-single-select-status-option:hover .delete-label-button {
+    visibility: visible
+}
+
+.form-content-component .form-single-select-status-wrapper .form-single-select-status-option:hover span {
+    cursor: default
+}
+
+.form-content-component .form-single-select-status-wrapper .form-single-select-status-option .monday-style-radio-button-component .monday-style-radio-button-component__radio-input-container__radio-control {
+    border: 1px solid;
+    border-color: var(--placeholder-color)
+}
+
+.form-content-component .form-single-select-status-wrapper .form-single-select-status-option .delete-label-button {
+    display: flex;
+    align-self: center;
+    margin-left: 8px
+}
+
+.form-content-component .form-single-select-status-wrapper.form-edit-mode .form-select-label {
+    padding-left: 3px;
+    margin-right: 8px
+}
+
+.form-content-component .form-single-select-status-wrapper.form-edit-mode:hover span {
+    cursor: default
+}
+
+.form-content-component .form-single-select-status-wrapper:not(.question-active):hover .form-select-label {
+    border: none;
+    cursor: text
+}
+
+.form-content-component .form-single-select-status-wrapper .add-option-button {
+    margin-top: 4px
+}
+
+.form-content-component .dropdown-form-input-component {
+    cursor: pointer;
+    width: 100%
+}
+
+@media(min-width: 500px) {
+    .form-content-component .dropdown-form-input-component {
+        width: 50%;
+        margin-right: 50%
+    }
+}
+
+.form-content-component .dropdown-form-input-component .Select--multi .Select-value {
+    margin: 6px;
+    line-height: 20px !important;
+    border-radius: 16px;
+    border: none;
+    padding: 1px 4px;
+    color: #0073ea
+}
+
+.form-content-component .dropdown-form-input-component .Select--multi .Select-value-icon {
+    border: none !important
+}
+
+.dropdown-form-input-component .Select-value-label {
+    line-height: 20px !important
+}
+
+.form-multi-select-wrapper {
+    width: 100%
+}
+
+.form-multi-select-wrapper .form-multi-select {
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+.form-multi-select-wrapper .form-multi-select .monday-style-checkbox {
+    align-self: center
+}
+
+.form-multi-select-wrapper .form-multi-select span {
+    align-self: center
+}
+
+.form-multi-select-wrapper .form-multi-select .delete-label-button {
+    margin-left: 8px;
+    visibility: hidden
+}
+
+.form-multi-select-wrapper .form-multi-select:hover .delete-label-button {
+    visibility: visible
+}
+
+.form-multi-select-wrapper.form-edit-mode .form-select-label {
+    padding-left: 3px;
+    margin-right: 8px
+}
+
+.form-multi-select-wrapper.form-edit-mode .form-select-label:disabled {
+    background-color: inherit
+}
+
+.form-multi-select-wrapper.form-edit-mode:hover .monday-style-checkbox__checkbox {
+    cursor: default
+}
+
+.form-multi-select-wrapper:not(.question-active):hover .form-select-label {
+    border: none;
+    cursor: text
+}
+
+.form-multi-select-wrapper .add-option-button {
+    margin-top: 4px
+}
+
+.form-content-component .boolean-form-input-component {
+    height: 22px
+}
+
+.form-content-component .form-date-input-wrapper .form-date-input {
+    min-width: 255px;
+    border-radius: 2px;
+    height: 38px
+}
+
+.form-content-component .form-date-input-wrapper .form-date-input:disabled {
+    color: var(--disabled-text-color)
+}
+
+.form-wrapper-component.dark-app-theme .form-date-input::-webkit-calendar-picker-indicator {
+    filter: invert(1)
+}
+
+.forms-layout,
+.timeline-form-input-component {
+    position: relative;
+    width: 100%
+}
+
+.forms-layout .DayPicker--horizontal,
+.timeline-form-input-component .DayPicker--horizontal {
+    overflow: hidden
+}
+
+.forms-layout .CalendarMonth__caption strong,
+.timeline-form-input-component .CalendarMonth__caption strong {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333
+}
+
+.forms-layout .DayPickerNavigation--horizontal,
+.timeline-form-input-component .DayPickerNavigation--horizontal {
+    margin-top: -16px
+}
+
+.forms-layout .DayPickerNavigation__prev,
+.forms-layout .DayPickerNavigation__next,
+.timeline-form-input-component .DayPickerNavigation__prev,
+.timeline-form-input-component .DayPickerNavigation__next {
+    background: #fff;
+    border: none;
+    outline: none;
+    top: 0
+}
+
+.forms-layout .DayPickerNavigation__prev.DayPickerNavigation__prev,
+.forms-layout .DayPickerNavigation__next.DayPickerNavigation__prev,
+.timeline-form-input-component .DayPickerNavigation__prev.DayPickerNavigation__prev,
+.timeline-form-input-component .DayPickerNavigation__next.DayPickerNavigation__prev {
+    left: 0;
+    padding: 5px;
+    margin: 20px 0 -5px 24px
+}
+
+.forms-layout .DayPickerNavigation__prev.DayPickerNavigation__next,
+.forms-layout .DayPickerNavigation__next.DayPickerNavigation__next,
+.timeline-form-input-component .DayPickerNavigation__prev.DayPickerNavigation__next,
+.timeline-form-input-component .DayPickerNavigation__next.DayPickerNavigation__next {
+    right: 0;
+    padding: 5px;
+    margin: 20px 24px -5px 0
+}
+
+.forms-layout .CalendarMonth--horizontal,
+.timeline-form-input-component .CalendarMonth--horizontal {
+    overflow: hidden
+}
+
+.forms-layout .DayPicker__week-header small,
+.timeline-form-input-component .DayPicker__week-header small {
+    font-size: 12px;
+    color: gray;
+    font-weight: 300;
+    cursor: default
+}
+
+.forms-layout .CalendarDay,
+.timeline-form-input-component .CalendarDay {
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    background-color: #fff
+}
+
+.forms-layout .CalendarDay:hover .CalendarDay__button,
+.timeline-form-input-component .CalendarDay:hover .CalendarDay__button {
+    background-color: #f1f1f1
+}
+
+.forms-layout .CalendarDay.CalendarDay--selected .CalendarDay__button,
+.forms-layout .CalendarDay.CalendarDay--selected-start .CalendarDay__button,
+.forms-layout .CalendarDay.CalendarDay--selected-end .CalendarDay__button,
+.timeline-form-input-component .CalendarDay.CalendarDay--selected .CalendarDay__button,
+.timeline-form-input-component .CalendarDay.CalendarDay--selected-start .CalendarDay__button,
+.timeline-form-input-component .CalendarDay.CalendarDay--selected-end .CalendarDay__button {
+    background-color: #0073ea;
+    color: #fff
+}
+
+.forms-layout .CalendarDay.CalendarDay--selected .CalendarDay__button:focus,
+.forms-layout .CalendarDay.CalendarDay--selected-start .CalendarDay__button:focus,
+.forms-layout .CalendarDay.CalendarDay--selected-end .CalendarDay__button:focus,
+.timeline-form-input-component .CalendarDay.CalendarDay--selected .CalendarDay__button:focus,
+.timeline-form-input-component .CalendarDay.CalendarDay--selected-start .CalendarDay__button:focus,
+.timeline-form-input-component .CalendarDay.CalendarDay--selected-end .CalendarDay__button:focus {
+    background-color: #6bb3ff
+}
+
+.forms-layout .CalendarDay.CalendarDay--selected-start,
+.forms-layout .CalendarDay.CalendarDay--selected-end,
+.timeline-form-input-component .CalendarDay.CalendarDay--selected-start,
+.timeline-form-input-component .CalendarDay.CalendarDay--selected-end {
+    border-radius: 50%;
+    background-color: #e5f4ff;
+    position: relative
+}
+
+.forms-layout .CalendarDay.CalendarDay--selected-start::before,
+.forms-layout .CalendarDay.CalendarDay--selected-end::before,
+.timeline-form-input-component .CalendarDay.CalendarDay--selected-start::before,
+.timeline-form-input-component .CalendarDay.CalendarDay--selected-end::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff
+}
+
+.forms-layout .CalendarDay.CalendarDay--selected-start:not(.CalendarDay--selected-end),
+.timeline-form-input-component .CalendarDay.CalendarDay--selected-start:not(.CalendarDay--selected-end) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.forms-layout .CalendarDay.CalendarDay--selected-start:not(.CalendarDay--selected-end) .CalendarDay__button,
+.timeline-form-input-component .CalendarDay.CalendarDay--selected-start:not(.CalendarDay--selected-end) .CalendarDay__button {
+    width: calc(100% - 1px)
+}
+
+.forms-layout .CalendarDay.CalendarDay--selected-end:not(.CalendarDay--selected-start),
+.timeline-form-input-component .CalendarDay.CalendarDay--selected-end:not(.CalendarDay--selected-start) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.forms-layout .CalendarDay.CalendarDay--selected-end:not(.CalendarDay--selected-start) .CalendarDay__button,
+.timeline-form-input-component .CalendarDay.CalendarDay--selected-end:not(.CalendarDay--selected-start) .CalendarDay__button {
+    width: 100%
+}
+
+.forms-layout .CalendarDay:not(.CalendarDay--selected-end):not(.CalendarDay--selected-start).CalendarDay--selected-span .CalendarDay__button,
+.timeline-form-input-component .CalendarDay:not(.CalendarDay--selected-end):not(.CalendarDay--selected-start).CalendarDay--selected-span .CalendarDay__button {
+    background-color: #e5f4ff;
+    color: #333;
+    width: 100%;
+    border-radius: 0
+}
+
+.forms-layout .CalendarDay:not(.CalendarDay--selected-end):not(.CalendarDay--selected-start).CalendarDay--selected-span .CalendarDay__button:hover,
+.forms-layout .CalendarDay:not(.CalendarDay--selected-end):not(.CalendarDay--selected-start).CalendarDay--selected-span .CalendarDay__button:focus,
+.timeline-form-input-component .CalendarDay:not(.CalendarDay--selected-end):not(.CalendarDay--selected-start).CalendarDay--selected-span .CalendarDay__button:hover,
+.timeline-form-input-component .CalendarDay:not(.CalendarDay--selected-end):not(.CalendarDay--selected-start).CalendarDay--selected-span .CalendarDay__button:focus {
+    background-color: #b2deff
+}
+
+.forms-layout .CalendarDay:not(.CalendarDay--selected-end):not(.CalendarDay--selected-start).CalendarDay--hovered-span .CalendarDay__button,
+.timeline-form-input-component .CalendarDay:not(.CalendarDay--selected-end):not(.CalendarDay--selected-start).CalendarDay--hovered-span .CalendarDay__button {
+    border-radius: 0;
+    background-color: #f1f1f1
+}
+
+.forms-layout .CalendarDay .CalendarDay__button,
+.timeline-form-input-component .CalendarDay .CalendarDay__button {
+    border-radius: 50%;
+    outline: none;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px)
+}
+
+.forms-layout .DateRangePicker,
+.timeline-form-input-component .DateRangePicker {
+    width: 100%
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput {
+    display: flex;
+    outline: none;
+    border: 0
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput {
+    cursor: pointer;
+    flex: 1;
+    font-family: "system-ui", "Roboto", sans-serif;
+    border: 1px solid #c4c4c4;
+    line-height: normal;
+    font-size: 14px;
+    width: initial;
+    padding: 12px
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput::before,
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput::after,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput::before,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput::after {
+    display: none
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput:last-child,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput:last-child {
+    margin-left: -1px;
+    z-index: 0
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput.DateInput--with-caret,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput.DateInput--with-caret {
+    z-index: 1
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput:first-child:not(.DateInput--with-caret),
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput:first-child:not(.DateInput--with-caret) {
+    border-right: 0 transparent;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput.DateInput--with-caret.DateInput--open-down,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput.DateInput--with-caret.DateInput--open-down {
+    border-color: #009aff
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput .DateInput__input,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput .DateInput__input {
+    cursor: pointer
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput .DateInput__input,
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput .DateInput__display-text,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput .DateInput__input,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput .DateInput__display-text {
+    padding: 0;
+    background-color: initial;
+    font-weight: 300;
+    color: var(--placeholder-color)
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput .DateInput__display-text,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput .DateInput__display-text {
+    height: 14px;
+    display: flex;
+    align-items: center
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput .DateInput__display-text.DateInput__display-text--has-input,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput .DateInput__display-text.DateInput__display-text--has-input {
+    color: #333
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput.DateInput--disabled,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput.DateInput--disabled {
+    font-family: inherit;
+    background-color: #f7f7f7;
+    border-width: 0
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput.DateInput--disabled:last-child,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput.DateInput--disabled:last-child {
+    border-left: 1px ridge
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput.DateInput--disabled .DateInput__display-text.DateInput__display-text--disabled,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput.DateInput--disabled .DateInput__display-text.DateInput__display-text--disabled {
+    font-style: normal;
+    color: gray
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateInput.DateInput--with-caret~.DateInput,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateInput.DateInput--with-caret~.DateInput {
+    border-left: 0 transparent;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px
+}
+
+.forms-layout .DateRangePicker .DateRangePickerInput .DateRangePickerInput__arrow,
+.timeline-form-input-component .DateRangePicker .DateRangePickerInput .DateRangePickerInput__arrow {
+    display: none
+}
+
+.forms-layout .DateRangePicker .DateRangePicker__picker,
+.timeline-form-input-component .DateRangePicker .DateRangePicker__picker {
+    margin-bottom: 20px
+}
+
+.forms-layout .DateRangePicker .DateRangePicker__picker .DayPicker,
+.timeline-form-input-component .DateRangePicker .DateRangePicker__picker .DayPicker {
+    padding: 20px 21px 13px 0
+}
+
+.forms-layout .DateRangePicker__picker.DateRangePicker__picker--open-down.DateRangePicker__picker--portal,
+.timeline-form-input-component .DateRangePicker__picker.DateRangePicker__picker--open-down.DateRangePicker__picker--portal {
+    left: 0 !important
+}
+
+.form-content-component .location-form-input-component {
+    width: 100%
+}
+
+@media(min-width: 500px) {
+    .form-content-component .location-form-input-component {
+        width: 50%;
+        margin-right: 50%
+    }
+}
+
+.form-content-component .location-form-input-component.form-select-input {
+    min-width: 255px
+}
+
+.form-content-component .location-form-input-component .is-disabled .Select-placeholder {
+    color: var(--disabled-text-color);
+    background-color: var(--disabled-background-color)
+}
+
+.form-content-component .country-form-input-component {
+    width: 100%
+}
+
+@media(min-width: 500px) {
+    .form-content-component .country-form-input-component {
+        width: 50%;
+        margin-right: 50%
+    }
+}
+
+.form-content-component .disabled-people-selection {
+    background-color: var(--disabled-background-color);
+    color: var(--disabled-text-color);
+    padding: 8px 16px;
+    font-size: 14px;
+    width: 100%
+}
+
+.file-form-input-error-component {
+    color: #e2445c;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px
+}
+
+.file-form-input-error-component .icon-dapulse-error {
+    font-size: 1.2em;
+    margin-right: 8px
+}
+
+.file-form-input-error-component .retry {
+    color: #0073ea;
+    margin-left: 4px;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.file-form-input-error-component .icon-dapulse-close {
+    margin-left: 8px
+}
+
+.file-name-with-ellipsis-component {
+    display: inline-flex;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    color: var(--color-mud_black)
+}
+
+.file-name-with-ellipsis-component .file-name-without-extension {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0
+}
+
+.file-name-with-ellipsis-component .file-extension {
+    flex-shrink: 0
+}
+
+.form-content-component .uploaded-file-component {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 8px
+}
+
+.form-content-component .uploaded-file-component .file-view-list-item-thumbnail-component {
+    flex-shrink: 0;
+    margin-right: 4px
+}
+
+.form-content-component .uploaded-file-component .file-name-with-ellipsis-component {
+    margin-right: 8px
+}
+
+.form-content-component .uploaded-file-component .icon-dapulse-filetype-plain {
+    font-size: 36px;
+    margin-right: 8px
+}
+
+.file-form-input-component {
+    font-weight: 300;
+    margin-right: 8px;
+    display: block;
+    align-items: center;
+    max-width: calc(100% - 66px)
+}
+
+@media(max-width: 600px) {
+    .file-form-input-component {
+        max-width: 100%;
+        height: 48px
+    }
+}
+
+.file-form-input-component .infinite-bar-loader-container {
+    width: 240px
+}
+
+.file-form-input-component .file-form-answers {
+    flex-grow: 1;
+    max-height: 76px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 16px
+}
+
+.file-form-input-component .file-form-answers::-webkit-scrollbar {
+    width: 0px
+}
+
+.file-form-input-component .file-form-answers::-webkit-scrollbar-thumb {
+    background-color: #c4c4c4
+}
+
+.file-form-input-component .file-form-answers:hover::-webkit-scrollbar {
+    width: 8px
+}
+
+.file-form-input-component .file-form-answers.disable-scroll {
+    overflow: hidden
+}
+
+.display-none {
+    display: none
+}
+
+.form-content-component .signature-disabled {
+    border: none;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-background-color);
+    color: var(--disabled-text-color);
+    font-size: 14px;
+    width: 100%
+}
+
+.form-content-component .signature-wrapper {
+    width: 100%
+}
+
+.form-content-component .signature-wrapper .signature-canvas {
+    border-color: var(--ui-border-color) !important;
+    border-radius: 4px;
+    border: 1px solid;
+    width: 100%
+}
+
+.form-content-component .signature-wrapper .signature {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin: 4px 0
+}
+
+.form-content-component .signature-wrapper .signature-canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.form-content-component .signature-wrapper .infinite-bar-loader-container {
+    width: 150px;
+    padding-bottom: 8px
+}
+
+.form-content-component .signature-wrapper .signature-buttons {
+    display: flex;
+    gap: 8px
+}
+
+.form-link-component {
+    width: 100%
+}
+
+.form-link-component.invalid {
+    position: relative
+}
+
+.form-link-component.invalid .form-input:not(:focus),
+.form-link-component.invalid .countries-dropdown:not(.is-focused) .Select-control {
+    border: 1px solid #f74875
+}
+
+.form-link-component.invalid .invalid-link-message {
+    color: #f74875;
+    font-size: 12px;
+    margin-top: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -16px
+}
+
+.form-content-component .rating-form-input-component {
+    height: 24px;
+    display: inline-block;
+    padding-right: 24px;
+    position: relative;
+    display: inline-flex;
+    align-items: center
+}
+
+.form-content-component .rating-form-input-component .rating-form-icon {
+    color: #c4c4c4;
+    padding-right: 2px;
+    padding-left: 2px;
+    vertical-align: middle;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center
+}
+
+.form-content-component .rating-form-input-component .rating-form-icon:focus {
+    outline: none
+}
+
+.form-content-component .rating-form-input-component .rating-form-icon:focus~.rating-form-icon {
+    opacity: .6
+}
+
+.form-content-component .rating-form-input-component .rating-form-icon.enabled {
+    cursor: pointer
+}
+
+.form-content-component .rating-form-input-component .rating-form-icon.enabled:hover~.enabled {
+    opacity: .6
+}
+
+.form-content-component .rating-form-input-component .form-rating-close-button {
+    display: none;
+    position: absolute;
+    right: 5px
+}
+
+@media(max-width: 500px) {
+    .form-content-component .rating-form-input-component .form-rating-close-button {
+        display: flex
+    }
+}
+
+.form-content-component .rating-form-input-component:hover .form-rating-close-button {
+    display: flex
+}
+
+.form-content-component .update-form-input {
+    height: auto;
+    resize: vertical
+}
+
+.form-content-component .update-form-input:disabled {
+    resize: none
+}
+
+.base-overview-section-missing-config {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: no-repeat 0 0;
+    background-size: cover
+}
+
+.base-overview-section-missing-config .missing-config-image {
+    max-height: 150px;
+    max-width: 290px;
+    margin: 16px 0
+}
+
+.base-overview-section-missing-config .missing-config-message {
+    max-width: 80%;
+    text-align: center;
+    cursor: pointer
+}
+
+.base-overview-section-missing-config .missing-config-message.disabled {
+    cursor: default
+}
+
+.base-overview-section-missing-config .missing-config-button {
+    margin-bottom: 16px
+}
+
+.base-overview-section-not-supproted-mobile {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.base-overview-section-not-supproted-mobile .base-overview-section-not-supproted-mobile-header {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.base-overview-section-not-supproted-mobile .base-overview-section-not-supproted-mobile-content {
+    font-size: 14px;
+    font-weight: 400
+}
+
+.base-overview-section-not-supproted-mobile .base-overview-section-not-supproted-mobile-content a {
+    color: #1f76c2
+}
+
+.base-overview-section-unauthorized-user {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.base-overview-section-unauthorized-user .unauthorized-message {
+    max-width: 70%;
+    text-align: center;
+    font-size: 20px
+}
+
+.base-overview-section-unauthorized-user .secondary-message {
+    margin-top: 16px;
+    max-width: 60%;
+    text-align: center
+}
+
+.base-overview-section-unauthorized-user .secondary-message .user-name:hover {
+    text-decoration: underline
+}
+
+.base-overview-section-unauthorized-user .restricted-icon-container {
+    display: inline-block;
+    background-color: #ffd0d9;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-top: 13px;
+    font-size: 55px;
+    text-align: center
+}
+
+.app-subscription-issue-component {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.app-subscription-issue-component__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.app-subscription-issue-component__logo {
+    width: 48px;
+    height: 48px;
+    border-radius: var(--border-radius-small);
+    margin-bottom: var(--spacing-medium)
+}
+
+.app-subscription-issue-component__heading {
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-bold)
+}
+
+.app-subscription-issue-component__text {
+    font-size: var(--font-size-paragraph);
+    margin-bottom: var(--spacing-large)
+}
+
+.app-subscription-issue-component__button {
+    min-width: auto
+}
+
+.file-breadcrumbs-component {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px
+}
+
+.file-breadcrumbs-component,
+.file-breadcrumbs-component>* {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.file-breadcrumbs-component ol {
+    margin-left: 0
+}
+
+.file-breadcrumbs-component a {
+    text-decoration: none;
+    color: var(--secondary-text-color)
+}
+
+.file-breadcrumbs-component a:hover {
+    color: var(--primary-color);
+    text-decoration: none
+}
+
+.file-breadcrumbs-component .board-name,
+.file-breadcrumbs-component .pulse-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 16px
+}
+
+.file-breadcrumbs-component .quick-search-breadcrumbs {
+    width: 5px;
+    height: 8px;
+    margin: 0 8px;
+    font-size: 14px;
+    position: relative;
+    color: var(--secondary-text-color) !important
+}
+
+.file-breadcrumbs-component .quick-search-breadcrumbs::before {
+    position: absolute;
+    bottom: -3px
+}
+
+.form-embedded-footer-component {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.form-embedded-footer-component .form-footer-message {
+    text-align: left
+}
+
+.form-embedded-footer-component.custom-footer-message {
+    padding: 0 48px;
+    height: 152px
+}
+
+.form-embedded-footer-component.custom-footer-message .form-footer-message {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px
+}
+
+.form-embedded-footer-component.custom-footer-message .monday-style-button {
+    background-color: var(--color-sofia_pink-hover)
+}
+
+.form-embedded-footer-component.custom-footer-message .monday-style-button:hover {
+    background-color: #94054d
+}
+
+@media(max-width: 500px) {
+    .form-embedded-footer-component.custom-footer-message {
+        padding: 0 16px
+    }
+
+    .form-embedded-footer-component.custom-footer-message .form-footer-message {
+        font-size: 16px;
+        margin-right: 8px
+    }
+}
+
+@media(max-width: 500px) {
+    .form-embedded-footer-component:not(.custom-footer-message) {
+        flex-direction: column
+    }
+
+    .form-embedded-footer-component:not(.custom-footer-message) .form-embedded-footer-content {
+        margin-bottom: 16px
+    }
+}
+
+.form-embedded-footer-component .title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 8px 0
+}
+
+.scroll-style::-webkit-scrollbar {
+    width: 10px;
+    height: 15px
+}
+
+.scroll-style::-webkit-scrollbar-track {
+    border-radius: 10px
+}
+
+.scroll-style::-webkit-scrollbar-thumb {
+    background-color: #b2b2b2
+}
+
+.form-wrapper-component {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #575c96
+}
+
+.form-wrapper-component.with-new-customization {
+    background: none
+}
+
+.form-wrapper-component.no-submission-mode {
+    padding: 0 64px;
+    font-family: "Roboto", sans-serif;
+    color: #333
+}
+
+.form-wrapper-component.mobile-preview {
+    border-radius: 8px;
+    padding: 0
+}
+
+.form-wrapper-component.mobile-preview .form-wrapper-empty-header {
+    height: 36px
+}
+
+.form-wrapper-component.internal-form {
+    background: none
+}
+
+.form-wrapper-component .form-wrapper-empty-header {
+    height: 60px
+}
+
+@media(max-width: 500px) {
+    .form-wrapper-component .form-wrapper-empty-header {
+        height: 24px
+    }
+}
+
+.form-wrapper-component .form-wrapper-header {
+    height: 60px
+}
+
+.form-wrapper-component .form-wrapper-header-color {
+    height: 250px
+}
+
+.form-wrapper-component .form-wrapper-header-color.new-design-customization {
+    height: 0
+}
+
+.form-wrapper-component .form-wrapper-header-color.full-layout {
+    height: 0
+}
+
+.form-wrapper-component .form-wrapper-header-color .form-wrapper-header-content {
+    width: 70%;
+    max-width: 680px;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    align-items: center
+}
+
+.form-wrapper-component .form-wrapper-header-color .form-wrapper-header-content.with-builder {
+    width: 70%;
+    min-width: 680px;
+    min-width: 680px
+}
+
+@media(max-width: 500px) {
+    .form-wrapper-component .form-wrapper-header-color .form-wrapper-header-content {
+        width: 90%
+    }
+}
+
+.form-wrapper-component.with-footer .form-content-component {
+    margin-bottom: 16px
+}
+
+.form-wrapper-component .form-content-component {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    box-shadow: 0px 0 4px 0px rgba(0, 0, 0, .1);
+    width: 70%;
+    max-width: 680px;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 8px 40px 8px;
+    margin-bottom: 32px;
+    transition: all .3s ease-in-out;
+    box-sizing: border-box
+}
+
+.form-wrapper-component .form-content-component.form-direction-rtl .form-title,
+.form-wrapper-component .form-content-component.form-direction-rtl .form-question-title,
+.form-wrapper-component .form-content-component.form-direction-rtl .form-question-title-wrapper,
+.form-wrapper-component .form-content-component.form-direction-rtl .form-editable-question-title,
+.form-wrapper-component .form-content-component.form-direction-rtl .form-editable-question-title-content,
+.form-wrapper-component .form-content-component.form-direction-rtl .form-description,
+.form-wrapper-component .form-content-component.form-direction-rtl .form-question-description,
+.form-wrapper-component .form-content-component.form-direction-rtl .form-editable-question-description,
+.form-wrapper-component .form-content-component.form-direction-rtl .form-question-answer {
+    direction: rtl
+}
+
+.form-wrapper-component .form-content-component.form-direction-rtl .form-select-input {
+    margin-right: 0;
+    margin-left: 50%
+}
+
+.form-wrapper-component .form-content-component.form-direction-rtl .phone-form-input-component {
+    direction: ltr;
+    margin-left: 50%
+}
+
+.form-wrapper-component .form-content-component.form-direction-rtl .phone-form-input-component .form-select-input {
+    margin-left: 0
+}
+
+.form-wrapper-component .form-content-component.with-builder {
+    width: 70%;
+    min-width: 680px;
+    max-width: 680px
+}
+
+.form-wrapper-component .form-content-component.internal-form {
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+@media(min-width: 650px) {
+    .form-wrapper-component .form-content-component.left-layout {
+        margin: 0 0 60px 60px
+    }
+
+    .form-wrapper-component .form-content-component.right-layout {
+        margin: 0 60px 60px auto
+    }
+
+    .form-wrapper-component .form-content-component.full-right-layout {
+        margin: 0 0 0 auto
+    }
+
+    .form-wrapper-component .form-content-component.full-left-layout {
+        margin: 0
+    }
+
+    .form-wrapper-component .form-content-component.full-right-layout,
+    .form-wrapper-component .form-content-component.full-left-layout {
+        border-radius: 0;
+        box-shadow: none;
+        width: 50%;
+        max-width: 50%;
+        min-height: 100%;
+        padding-bottom: 0
+    }
+}
+
+.form-wrapper-component .form-content-component.no-bottom-padding {
+    padding: 16px 0 0 0
+}
+
+.form-wrapper-component .form-content-component.mobile-preview {
+    width: 90%;
+    min-width: 0
+}
+
+@media(max-width: 500px) {
+    .form-wrapper-component .form-content-component {
+        width: 90%;
+        min-width: 0
+    }
+}
+
+.form-wrapper-component .form-footer-wrapper {
+    width: 70%;
+    max-width: 680px;
+    margin: auto
+}
+
+.form-wrapper-component .form-footer-wrapper.mobile-preview {
+    width: 90%
+}
+
+@media(max-width: 500px) {
+    .form-wrapper-component .form-footer-wrapper {
+        width: 90%
+    }
+}
+
+.form-wrapper-component.form-survey-mode .form-content-component:not(.full-right-layout):not(.full-left-layout) {
+    margin-bottom: 24px;
+    max-height: calc(100% - 24px * 2 - 16px);
+    position: relative;
+    padding: 16px 0 0 0
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .form-wrapper-component.form-survey-mode .form-content-component:not(.full-right-layout):not(.full-left-layout) {
+        height: calc(100% - 24px * 2 - 16px)
+    }
+}
+
+.form-wrapper-component.form-survey-mode .form-wrapper-empty-header {
+    height: 24px
+}
+
+.form-powered-by-monday-component-wrapper {
+    text-decoration: none;
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.form-powered-by-monday-component-wrapper.form-survey-mode {
+    margin-top: 36px;
+    margin-bottom: 16px
+}
+
+.form-powered-by-monday-component-wrapper:focus {
+    outline: none
+}
+
+.form-powered-by-monday-component-wrapper.stick-to-bottom {
+    width: 100%;
+    height: 48px;
+    margin-top: 0;
+    border-radius: 0 0 8px 8px;
+    background-color: var(--dark-background-color)
+}
+
+.form-powered-by-monday-component-wrapper .form-powered-by-monday-component {
+    color: var(--secondary-text-color);
+    font-size: 12px;
+    display: flex;
+    font-weight: 300;
+    line-height: 20px
+}
+
+.form-powered-by-monday-component-wrapper .form-powered-by-monday-component .monday-logo-img {
+    margin-left: 4px;
+    height: 20px
+}
+
+.forms-submit-success-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    width: 100%
+}
+
+.forms-submit-success-component .forms-submit-success-title-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+    gap: 8px;
+    flex: 2
+}
+
+.forms-submit-success-component .forms-submit-success-title-wrapper .form-submit-success-title {
+    font-size: 40px;
+    font-weight: 500
+}
+
+.forms-submit-success-component .forms-submit-success-title-wrapper .form-submit-success-msg {
+    font-weight: 300;
+    line-height: 22px
+}
+
+.forms-submit-success-component .forms-submit-success-title-wrapper .form-submit-success-submit-button {
+    padding-left: 8px
+}
+
+.forms-submit-success-component .form-submit-success-img-wrapper {
+    flex: 1;
+    display: flex;
+    padding: 0 13% 4% 0;
+    align-self: self-end
+}
+
+.forms-submit-success-component .form-submit-again {
+    background-color: var(--color-sofia_pink-hover);
+    margin: 16px 0
+}
+
+.forms-submit-success-component .form-submit-again:hover {
+    background-color: #94054d
+}
+
+.forms-submit-success-component.is-mobile {
+    text-align: center;
+    flex-direction: column;
+    min-height: 100px
+}
+
+.forms-submit-success-component.is-mobile .forms-submit-success-title-wrapper {
+    margin-left: 0;
+    margin-top: 8px
+}
+
+.forms-submit-success-component.is-mobile .forms-submit-success-title-wrapper .form-submit-success-title {
+    font-size: 33px
+}
+
+.forms-submit-success-component.is-mobile .form-submit-success-img-wrapper {
+    padding: 4% 0;
+    width: 100%;
+    justify-content: center
+}
+
+.form-followup-link-wrapper {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 0 24px;
+    box-sizing: border-box
+}
+
+.form-followup-link-wrapper .form-followup-link-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: flex
+}
+
+.form-followup-link-wrapper .form-followup-link-title .form-followup-link-title-text {
+    margin-right: 4px
+}
+
+.form-followup-link-wrapper .form-followup-link-input {
+    display: flex;
+    align-items: center
+}
+
+.form-content-component .form-submit-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.form-content-component .form-submit-wrapper .recaptcha-container {
+    margin-top: var(--spacing-medium);
+    margin-bottom: var(--spacing-large)
+}
+
+.form-content-component .form-submit-wrapper .form-submit-btn.form-survey-mode {
+    margin-top: 0px
+}
+
+@keyframes spin_accel {
+    0% {
+        transform: rotate(0deg);
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em
+    }
+
+    5%,
+    65% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em
+    }
+
+    10%,
+    59% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em
+    }
+
+    20% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em
+    }
+
+    38% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em
+    }
+
+    100% {
+        transform: rotate(360deg);
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em
+    }
+}
+
+.form-content-component .form-question-title-wrapper .form-question-mandatory {
+    font-size: 14px;
+    flex: 1
+}
+
+.form-content-component .form-question-mandatory {
+    width: 100%;
+    position: relative;
+    height: 0
+}
+
+.form-content-component .form-question-mandatory .form-editable-question-title-content {
+    display: flex;
+    justify-content: flex-end;
+    top: 2px
+}
+
+.form-content-component .form-question-mandatory.form-question-mandatory-short {
+    width: 50%
+}
+
+@media(max-width: 500px) {
+    .form-content-component .form-question-mandatory.form-question-mandatory-short {
+        width: 100%
+    }
+}
+
+.form-content-component .form-question-mandatory.form-question-mandatory-date {
+    width: 240px
+}
+
+@media(max-width: 500px) {
+    .form-content-component .form-question-mandatory.form-question-mandatory-date {
+        width: 210px
+    }
+}
+
+.form-content-component .form-question-mandatory.form-question-mandatory-phone {
+    width: 284px
+}
+
+@media(max-width: 500px) {
+    .form-content-component .form-question-mandatory.form-question-mandatory-phone {
+        width: 256px
+    }
+}
+
+.form-content-component .form-question-mandatory.form-question-mandatory-inline {
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    top: 0
+}
+
+.form-content-component .form-question-mandatory .form-question-mandatory-text {
+    display: flex;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic
+}
+
+.form-content-component .form-question-mandatory .form-question-mandatory-text .form-question-mandatory-mark {
+    color: var(--negative-color);
+    font-weight: 900;
+    position: relative
+}
+
+.form-content-component .form-question-mandatory .form-question-mandatory-text.form-question-missing-answer {
+    color: #e2445c
+}
+
+.form-content-component .form-question {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    -webkit-user-select: text;
+    user-select: text
+}
+
+.form-content-component .form-question:focus {
+    outline: none
+}
+
+.form-content-component .form-question.form-survey-mode {
+    width: 80%;
+    margin-left: auto;
+    position: relative;
+    margin-right: auto
+}
+
+.form-content-component .form-question .form-question-title-wrapper {
+    display: flex;
+    gap: 4px
+}
+
+.form-content-component .form-question .form-question-title {
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 20px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.form-content-component .form-question .form-question-description {
+    font-weight: 300;
+    margin-bottom: 8px;
+    line-height: 20px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.form-content-component .form-question .form-question-answer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+.form-submit-success-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px
+}
+
+.form-submit-success-component .form-submit-success-title {
+    font-size: 40px;
+    font-weight: 500
+}
+
+.form-submit-success-component .form-submit-success-img {
+    margin: 24px 0
+}
+
+.form-submit-success-component .form-submit-success-msg {
+    font-weight: 300;
+    line-height: 22px
+}
+
+.form-submit-success-component .form-submit-again {
+    margin-top: 16px
+}
+
+.form-submit-error-component-wrapper {
+    position: relative;
+    width: 100%;
+    top: 0
+}
+
+.form-submit-error-component-wrapper .submit-error {
+    background-color: var(--dark-background-color);
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.form-submit-error-component-wrapper .submit-error .submit-error-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px
+}
+
+.form-submit-error-component-wrapper .submit-error .submit-error-text {
+    font-weight: 300;
+    font-size: 14px;
+    color: #e2445c
+}
+
+.form-submit-error-component-wrapper .submit-error .submit-error-text .submit-error-required {
+    font-style: italic
+}
+
+.form-survey-footer-component {
+    box-shadow: 4px 0px 8px rgba(0, 0, 0, .214379);
+    width: 100%;
+    line-height: 56px;
+    font-weight: 300;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.form-survey-footer-component.no-mandatory {
+    justify-content: center
+}
+
+@media(max-width: 320px),
+(max-width: 360px),
+(max-width: 375px),
+(max-width: 411px),
+(max-width: 414px),
+(max-width: 650px) {
+    .form-survey-footer-component {
+        flex-direction: column;
+        line-height: 14px;
+        justify-content: center
+    }
+}
+
+.form-survey-footer-component .answers-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 24px
+}
+
+@media(max-width: 320px),
+(max-width: 360px),
+(max-width: 375px),
+(max-width: 411px),
+(max-width: 414px),
+(max-width: 650px) {
+    .form-survey-footer-component .answers-container {
+        padding-left: 0px
+    }
+}
+
+.form-survey-footer-component .required-container {
+    margin-left: auto;
+    padding-right: 24px
+}
+
+@media(max-width: 320px),
+(max-width: 360px),
+(max-width: 375px),
+(max-width: 411px),
+(max-width: 414px),
+(max-width: 650px) {
+    .form-survey-footer-component .required-container {
+        padding-right: 0px;
+        margin-left: 0px
+    }
+}
+
+.form-survey-footer-component .battery-container {
+    height: 8px;
+    border-radius: 8px;
+    border: 2px solid #0073ea;
+    width: 152px;
+    margin: 8px
+}
+
+.form-survey-footer-component .battery-animation {
+    transition: all .2s ease-in-out
+}
+
+.form-survey-footer-component .battery {
+    float: left;
+    height: 100%;
+    background-color: #0073ea
+}
+
+.form-logo-component {
+    height: 36px
+}
+
+.form-logo-component .form-logo-img {
+    height: 36px
+}
+
+.form-uploaded-logo-component {
+    max-height: 100px;
+    max-width: 75%;
+    margin: auto
+}
+
+.form-uploaded-logo-component .form-logo-img {
+    max-height: 100px;
+    max-width: 100%
+}
+
+.forms-layout {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    user-select: none;
+    -webkit-user-select: none;
+    overflow: hidden;
+    height: 100%
+}
+
+#forms-component {
+    height: 100%;
+    position: relative
+}
+
+.made-in-workforms {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 32px;
+    box-shadow: -8px 0 16px 0 rgba(0, 0, 0, .3);
+    transform: rotate(90deg);
+    transform-origin: right bottom
+}
+
+.made-in-workforms.with-scroll {
+    right: 52px
+}
+
+.made-in-workforms .workforms-logo {
+    margin-right: 8px
+}
+
+.made-in-workforms .workforms-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    color: #333;
+    font-family: "Poppins", sans-serif !important
+}
+
+.form-content-component .form-titles {
+    margin-bottom: 16px;
+    margin-top: 16px
+}
+
+.form-content-component .form-titles .form-title {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 8px
+}
+
+.form-content-component .form-titles .form-title.form-survey-mode {
+    line-height: 32px
+}
+
+@media(max-width: 360px) {
+    .form-content-component .form-titles .form-title {
+        font-size: 26px;
+        line-height: 32px
+    }
+}
+
+.form-content-component .form-titles .form-description {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    max-height: 220px;
+    overflow-y: auto;
+    overflow-wrap: break-word
+}
+
+@media(max-width: 360px) {
+    .form-content-component .form-titles .form-description {
+        max-height: 130px
+    }
+}
+
+.form-content-component .form-titles .form-is-anonymous-indicator {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #a358df
+}
+
+.form-content-component .icon-dapulse-close {
+    color: #c4c4c4;
+    font-size: .8em;
+    cursor: pointer
+}
+
+@media(min-width: 500px) {
+    .form-content-component .icon-dapulse-close:hover {
+        color: gray
+    }
+}
+
+.form-content-component .form-survey-mode .password-disclaimer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.form-content-component .password-disclaimer {
+    font-size: 14px;
+    text-align: center;
+    color: var(--secondary-text-color);
+    font-weight: 300;
+    margin-top: 24px
+}
+
+.form-content-component .report-form {
+    width: max-content;
+    margin: var(--spacing-small) auto 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: var(--secondary-text-color);
+    font-weight: 300
+}
+
+.form-content-component .report-form:hover {
+    color: var(--primary-text-color);
+    cursor: pointer
+}
+
+.scroll-style::-webkit-scrollbar {
+    width: 10px;
+    height: 15px
+}
+
+.scroll-style::-webkit-scrollbar-track {
+    border-radius: 10px
+}
+
+.scroll-style::-webkit-scrollbar-thumb {
+    background-color: #b2b2b2
+}
+
+.form-content-component .form-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media(max-width: 360px) {
+    .form-content-component .form-content {
+        width: 80%
+    }
+}
+
+.form-content-component .form-content.form-survey-mode {
+    overflow: auto;
+    width: 100%;
+    position: relative
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .form-content-component .form-content.form-survey-mode {
+        height: 100%
+    }
+}
+
+.inner-widget-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.inner-widget-loader .inner-widget-loader-svg {
+    color: var(--primary-color);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 0;
+    top: 0;
+    left: 0
+}
+
+.feedback-modal-portal {
+    z-index: 100000000
+}
+
+.timeline-gantt-baseline-button-component {
+    display: flex
+}
+
+.timeline-gantt-baseline-button-component .feedback-button {
+    margin-left: 8px
+}
+
+.card-data-component-wrapper {
+    padding: 8px
+}
+
+.card-data-component-wrapper .single-cell-wrapper {
+    height: 34px;
+    line-height: 34px;
+    flex: 1 0 0;
+    display: flex
+}
+
+.card-data-component-wrapper .single-cell-wrapper:not(:last-child) {
+    margin-bottom: 8px
+}
+
+.card-data-component-wrapper .single-cell-wrapper.disabled .column-title {
+    color: var(--disabled-text-color)
+}
+
+.card-data-component-wrapper .single-cell-wrapper .monday-style-dialog-content-wrapper {
+    z-index: 100
+}
+
+.card-data-component-wrapper .single-cell-wrapper .column-title {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-right: 8px;
+    cursor: pointer
+}
+
+.card-data-component-wrapper .single-cell-wrapper .column-title .column-icon {
+    margin-right: 4px
+}
+
+.card-data-component-wrapper .single-cell-wrapper .column-title .column-name {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.card-data-component-wrapper .single-cell-wrapper .single-cell-value-wrapper {
+    min-width: 0
+}
+
+.card-data-component-wrapper .single-cell-wrapper .single-cell-value-wrapper .single-cell-value.can-edit {
+    cursor: pointer
+}
+
+.card-data-component-wrapper .single-cell-wrapper .single-cell-value-wrapper .single-cell-value .cell-component {
+    margin-left: auto;
+    height: 34px;
+    width: 140px
+}
+
+.card-data-component-wrapper .single-cell-wrapper .single-cell-value-wrapper .single-cell-value .cell-component>* {
+    height: 100%
+}
+
+.card-data-component-wrapper .single-cell-wrapper .single-cell-value-wrapper .single-cell-value .cell-component:not(.color-cell) {
+    border: none
+}
+
+.card-data-component-wrapper .single-cell-wrapper .single-cell-value-wrapper .single-cell-value>div {
+    background-color: var(--pulse-background-color)
+}
+
+.card-data-component-wrapper .single-cell-wrapper .single-cell-value-wrapper .single-cell-value>div:hover {
+    background-color: var(--pulse-hover-background-color)
+}
+
+.list-view-container {
+    background-color: var(--application-background-color)
+}
+
+.list-view-container .board-content-component {
+    padding-top: 0px;
+    padding-left: 0px
+}
+
+.list-view-container .board-content-component .group-header-component .grid-floating-cells-row-component {
+    flex-grow: 0
+}
+
+.list-view-container .board-content-component .header-placeholder,
+.list-view-container .board-content-component .column-header-placeholder,
+.list-view-container .board-content-component .column-header {
+    background-color: var(--pulse-background-color-opacity);
+    height: 44px;
+    min-height: 24px;
+    padding-top: 11px
+}
+
+.list-view-container .board-content-component .pulse-component-wrapper .name-cell .pulse-left-indicator {
+    color: var(--primary-color) !important;
+    background-color: var(--primary-color) !important;
+    flex: 0 0 4px
+}
+
+.list-view-container .board-content-component .pulse-component-wrapper .name-cell .pulse-left-indicator .left-indicator-inner {
+    width: 4px
+}
+
+.list-view-container .board-content-component .pulse-component-wrapper .pulse-menu-component::before {
+    background-color: var(--application-background-color)
+}
+
+.list-view-container .board-content-component .subitem .pulse-component .pulse-left-indicator {
+    flex: 0 0 4px;
+    color: var(--primary-color) !important;
+    background-color: var(--primary-color) !important
+}
+
+.list-view-container .board-content-component .subitem .pulse-component .pulse-left-indicator .left-indicator-inner {
+    width: 4px
+}
+
+.list-view-container .board-content-component .subitem .pulse-component .pulse-left-indicator:hover.can-edit {
+    flex: 0 0 32px
+}
+
+.list-view-container .board-content-component .subitem .pulse-component .pulse-left-indicator:hover.can-edit .left-indicator-inner {
+    width: 32px
+}
+
+.list-view-container .board-content-component .subitem .column-header-placeholder,
+.list-view-container .board-content-component .subitem .column-header {
+    background-color: unset;
+    padding-top: 8px
+}
+
+.list-view-container .board-content-component .subitem .header-placeholder {
+    flex-grow: 0
+}
+
+.list-view-container .board-content-component .group-footer-wrapper.subitems-group-footer .add-pulse-component .empty-block-before-add-pulse {
+    width: 46px;
+    left: 16px
+}
+
+.list-view-container .board-content-component .group-footer-wrapper.subitems-group-footer .add-pulse-component.focused .add-pulse-input {
+    border-color: var(--primary-color)
+}
+
+.list-view-container .board-content-component .group-footer-wrapper.subitems-group-footer .add-pulse-component .add-pulse-left-indicator {
+    border-bottom-left-radius: 4px;
+    flex: 0 0 4px;
+    opacity: .5;
+    transition: opacity .1s ease
+}
+
+.list-view-container .board-content-component .group-footer-wrapper.subitems-group-footer:hover .add-pulse-left-indicator {
+    opacity: 1
+}
+
+.list-view-container .board-content-component .group-footer-wrapper.subitems-group-footer:hover .add-pulse-right-indicator {
+    width: 0;
+    border-right: none
+}
+
+.scroll-style::-webkit-scrollbar {
+    width: 10px;
+    height: 15px
+}
+
+.scroll-style::-webkit-scrollbar-track {
+    border-radius: 10px
+}
+
+.scroll-style::-webkit-scrollbar-thumb {
+    background-color: #b2b2b2
+}
+
+.form-content-component .form-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media(max-width: 360px) {
+    .form-content-component .form-content {
+        width: 80%
+    }
+}
+
+.form-content-component .form-content.form-builder {
+    width: 70%
+}
+
+.form-content-component .form-content.form-survey-mode {
+    overflow: auto;
+    width: 100%;
+    position: relative
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .form-content-component .form-content.form-survey-mode {
+        height: 100%
+    }
+}
+
+.spp-wrapper-component {
+    width: 510px
+}
+
+.spp-wrapper-component .spp-content-component {
+    border-radius: 8px
+}
+
+@media(max-width: 450px) {
+    .spp-wrapper-component .spp-content-component {
+        width: 90%
+    }
+}
+
+.spp-content-component .spp-content {
+    margin: 0 auto
+}
+
+.done-color-settings-component {
+    padding-left: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: height .1s ease-out
+}
+
+.done-color-settings-component .section-title {
+    font-size: 14px;
+    font-weight: 400
+}
+
+.done-color-settings-component .color-picker-content--wrapper {
+    margin-top: 8px
+}
+
+.done-color-settings-component .color-picker-content--wrapper .color-indicator-wrapper {
+    color: #fff
+}
+
+.status-settings-component {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: height .1s ease-out
+}
+
+.status-settings-component .section-title {
+    font-size: 14px;
+    font-weight: 400
+}
+
+.column-settings.color-settings-wrapper {
+    overflow: auto
+}
+
+.numeric-settings-component {
+    display: flex;
+    flex-direction: column;
+    padding: 5px
+}
+
+.numeric-settings-component .title {
+    font-weight: 400;
+    margin-bottom: 8px
+}
+
+.numeric-settings-component .title.directions-title {
+    margin-top: 10px
+}
+
+.avatar-cell-component {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.avatar-cell-component .avatar-image {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    overflow: hidden
+}
+
+.avatar-cell-component .clear-avatar-icon-wrapper {
+    position: absolute;
+    left: calc(50% + 24px);
+    transform: translateX(-50%);
+    color: #c4c4c4
+}
+
+.avatar-cell-component .clear-avatar-icon-wrapper:hover {
+    color: #333
+}
+
+.avatar-cell-component.is-deleted .avatar-image-wrapper .avatar-image {
+    opacity: .3
+}
+
+.ref-dialog-node {
+    position: absolute;
+    top: 0;
+    height: 0;
+    z-index: 100000
+}
+
+.ref-overlay-layer {
+    position: absolute;
+    z-index: 99999;
+    background: rgba(0, 0, 0, .3)
+}
+
+.ref-overlay-layer.circular-layer {
+    overflow: hidden;
+    position: absolute;
+    background-color: transparent
+}
+
+.ref-overlay-layer.circular-layer:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    transform: translate(50%, 50%);
+    box-shadow: 0 0 0 1000rem rgba(0, 0, 0, .3)
+}
+
+.ref-overlay-layer.circular-layer.top-right:before {
+    right: unset;
+    left: 0;
+    transform: translate(-50%, 50%)
+}
+
+.ref-overlay-layer.circular-layer.bottom-left:before {
+    bottom: unset;
+    top: 0;
+    transform: translate(50%, -50%)
+}
+
+.ref-overlay-layer.circular-layer.bottom-right:before {
+    bottom: unset;
+    top: 0;
+    right: unset;
+    left: 0;
+    transform: translate(-50%, -50%)
+}
+
+.edit-payment-method-component {
+    width: 470px
+}
+
+.edit-payment-method-component__credit-card-holder--hidden {
+    display: none
+}
+
+.edit-payment-method-component__loader {
+    margin-top: 16px
+}
+
+.edit-payment-method-component__form-field-row {
+    flex: 1;
+    display: flex;
+    -webkit-user-select: none;
+    user-select: none;
+    position: relative;
+    width: 100%;
+    justify-content: space-between
+}
+
+.edit-payment-method-component__form-field-row .form-field {
+    flex: 1
+}
+
+.edit-payment-method-component__form-field-row .form-field:last-child:not(:only-child) {
+    margin-left: 8px
+}
+
+.edit-payment-method-component__paypal-text {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 24px
+}
+
+.edit-billing-info-component {
+    display: flex;
+    padding: 16px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 470px;
+    position: relative
+}
+
+.edit-billing-info-component__loader {
+    margin-top: 16px
+}
+
+.edit-billing-info-component__form-field-row {
+    flex: 1;
+    display: flex;
+    -webkit-user-select: none;
+    user-select: none;
+    position: relative;
+    width: 100%;
+    justify-content: space-between
+}
+
+.edit-billing-info-component__form-field-row .form-field {
+    flex: 1
+}
+
+.edit-billing-info-component__form-field-row .form-field:last-child:not(:only-child) {
+    margin-left: 8px
+}
+
+.invoices-component__loader {
+    margin-top: 16px
+}
+
+.invoices-component table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-y: auto;
+    color: var(--primary-text-color)
+}
+
+.invoices-component thead {
+    background-color: var(--secondary-background-color);
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid transparent;
+    font-weight: 400;
+    border-color: var(--layout-border-color)
+}
+
+.invoices-component thead td {
+    padding: var(--spacing-medium) var(--spacing-small)
+}
+
+.invoices-component td {
+    padding: var(--spacing-small);
+    vertical-align: middle
+}
+
+.invoices-component__current-payment-method {
+    display: flex;
+    align-items: center
+}
+
+.invoices-component__current-payment-method>:not(:first-child) {
+    margin-left: var(--spacing-xs)
+}
+
+.independent-subscription-management-component {
+    position: relative
+}
+
+.independent-subscription-management-component__main-view-container,
+.independent-subscription-management-component__trial-view-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    align-items: flex-start
+}
+
+.independent-subscription-management-component__trial-view-container {
+    max-width: 250px
+}
+
+.independent-subscription-management-component__current-payment-method {
+    display: flex;
+    align-items: center
+}
+
+.independent-subscription-management-component__current-payment-method>:not(:first-child) {
+    margin-left: 4px
+}
+
+.independent-subscription-management-component__main-view-wrapper--hidden {
+    opacity: 0;
+    position: absolute;
+    z-index: -1
+}
+
+.independent-subscription-management-component__main-header {
+    display: flex;
+    padding: 8px 0;
+    align-items: center
+}
+
+.independent-subscription-management-component__main-header>:first-child {
+    margin-right: 16px
+}
+
+.independent-subscription-management-component__main-view-section-body {
+    margin-top: 8px
+}
+
+.independent-subscription-management-component__cancel-on-renewal {
+    color: var(--negative-color)
+}
+
+.monday-billing-payment-component-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+
+.monday-billing-payment-component-container__loader-container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.marketplace-app-subscription-component {
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+    min-width: 380px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+
+.marketplace-app-subscription-component__content {
+    display: flex;
+    flex: 1
+}
+
+.marketplace-app-subscription-component__error-container {
+    margin: 8px 0
+}
+
+.marketplace-app-subscription-component__customer-info {
+    width: 516px;
+    min-width: 516px;
+    min-height: 534px;
+    margin-right: auto;
+    padding-right: 56px
+}
+
+.marketplace-app-subscription-component .payment-form-billing-subscriptions .form-field-row:not(:first-child) {
+    padding-top: 20px
+}
+
+.marketplace-app-subscription-component__order-summary-container {
+    flex: 1 1 0%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    min-width: 450px
+}
+
+.marketplace-app-subscription-component__order-summary-container--with-customer-details {
+    max-width: 500px
+}
+
+.marketplace-app-subscription-component__order-summary-background-container--with-background {
+    padding: var(--spacing-medium) var(--spacing-medium) 0 var(--spacing-medium);
+    border-radius: var(--border-radius-small);
+    background: var(--dark-background-color);
+    margin-bottom: 24px
+}
+
+.marketplace-app-subscription-component__submit-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 32px
+}
+
+.marketplace-app-subscription-component__submit-button {
+    margin-left: auto;
+    display: flex
+}
+
+.mf-apps-container {
+    width: 100%;
+    height: 100%
+}
+
+.product-pricing-button-component {
+    color: var(--primary-color) !important
+}
